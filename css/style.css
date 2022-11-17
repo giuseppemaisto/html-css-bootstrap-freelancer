@@ -16,7 +16,7 @@ header .content{
     height: 75px;
     background-color: gray;
 }
-#jumbotron{
+#jumbotron, #about{
     background-color: greenyellow;
 }
 #jumbotron .content{
@@ -35,6 +35,10 @@ header .content{
 }
 #about .content{
     height: 350px;
+    background-color: gray;
+}
+#contact-us .content{
+    height: 250px;
     background-color: gray;
 }
 footer{

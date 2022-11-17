@@ -103,17 +103,34 @@ h1{
 }
 
 footer{
-    background-color: navy;
+    background-color: #40536B;
     padding: 30px;
 }
 footer .content{
-    height: 200px;
-    background-color: gray;
+    
+    text-align: center;
+}
+footer .content h4, h5, p{
+    color: white;
+}
+
+.icone{
+    display: flex;
+   justify-content: center;
+   margin-top: 40px;
+   margin-bottom: 30px;
+}
+.icons{
+    border: 1px solid white ;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    
 }
 .bottom-bar{
-    background-color: blue;
+    background-color: #303D4E;
 }
 .bottom-bar .content{
-    height: 100px;
-    background-color: gray;
+    
+ 
 }

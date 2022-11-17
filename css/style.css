@@ -3,7 +3,52 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.col-4, .col-8, .col-7{
-    outline: 1px solid black;
+header{
+    width: 100%;
+    height: 75px;
+    background-color: navy;
+    position: fixed;
+    top: 0;
+    left:0;
+}
+header .content{
+    width: 100%;
+    height: 75px;
+    background-color: gray;
+}
+#jumbotron{
+    background-color: greenyellow;
+}
+#jumbotron .content{
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+}
+.content-title{
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+#columns .content{
+    height: 350px;
+    background-color: gray;
+}
+#about .content{
+    height: 350px;
+    background-color: gray;
+}
+footer{
+    background-color: navy;
+    padding: 30px;
+}
+footer .content{
+    height: 200px;
+    background-color: gray;
+}
+.bottom-bar{
+    background-color: blue;
+}
+.bottom-bar .content{
+    height: 100px;
+    background-color: gray;
 }
